@@ -1,0 +1,4 @@
+//windows
+set GO111MODULE=on    
+//linux
+export GO111MODULE=on 
