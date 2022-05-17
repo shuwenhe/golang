@@ -2,8 +2,10 @@ package main
 
 import (
 	"fmt"
+	"math"
 )
 
 func main() {
-	fmt.Println("IsNaN")
+	pi := math.NaN()
+	fmt.Println(math.IsNaN(pi))
 }
