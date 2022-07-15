@@ -16,8 +16,8 @@ func m() {
 }
 
 func m2() {
-	// sd := []string{"apple", "peach", "pear"}
-	sd := []string{"apple"}
+	sd := []string{"apple", "peach", "pear"}
+	// sd := []string{"apple"}
 	fmt.Println("sd = ", sd)
 	sb, _ := json.Marshal(sd)
 	fmt.Println("sb = ", sb)
