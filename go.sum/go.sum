@@ -1,0 +1,4 @@
+解决使用go mod和git管理代码导致的go.sum校验和不匹配问题
+https://blog.csdn.net/weixin_43372552/article/details/111703543
+go clean -modcache
+go mod tidy
